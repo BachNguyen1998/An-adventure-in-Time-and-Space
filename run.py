@@ -2,7 +2,7 @@ from sys import exit
 from random import randint
 import vlc
 import functions
-#comment
+
 class Scene(object):
 
     def loading(self):
