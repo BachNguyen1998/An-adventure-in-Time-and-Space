@@ -71,7 +71,7 @@ class Dream(Scene):
 
     def enter(self):
         self.loading()
-        ex36.start()
+        functions.start()
         print "What would you do?"
         print "1. Stay away from it. Run as fast as you can."
         print "2. Get inside and discover..."
@@ -223,7 +223,7 @@ class WeepingAngel(Scene):
 
     def enter(self):
         self.loading()
-        ex36.door_left()
+        functions.door_left()
         door1 = False
         tcount()
         print "What will you do?"
@@ -260,7 +260,7 @@ class Silence(Scene):
 
     def enter(self):
         self.loading()
-        ex36.door_front()
+        functions.door_front()
         print "What will you do?"
         door2 = False
         tcount()
@@ -295,7 +295,7 @@ class Dalek(Scene):
 
     def enter(self):
         self.loading()
-        ex36.door_right()
+        functions.door_right()
         print "What will you do? *Daleks are scared of The Doctor*"
         door3 = False
         dw = vlc.MediaPlayer(".\music\\who.mp3")
