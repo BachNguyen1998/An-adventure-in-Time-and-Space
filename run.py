@@ -1,7 +1,7 @@
 from sys import exit
 from random import randint
 import vlc
-import ex36
+import functions
 
 class Scene(object):
 
